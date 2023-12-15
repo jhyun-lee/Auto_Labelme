@@ -1,0 +1,243 @@
+auto_save: true
+display_label_popup: true
+store_data: false
+keep_prev: false
+keep_prev_scale: false
+keep_prev_brightness: false
+keep_prev_contrast: false
+logger_level: info
+
+flags: null
+label_flags: null
+labels: None
+file_search: null
+sort_labels: true
+validate_label: null
+
+default_shape_color: [0, 255, 0]
+shape_color: manual  # null, 'auto', 'manual'
+shift_auto_shape_color: 0
+
+# person라벨링 색
+#  라벨링 색 지정 [라벨 네임 : [색RGB]]
+label_colors:
+
+
+  P1: [255, 0, 0]
+  P_Skeleton_1: [255,0,0]
+  P_Skeleton_2: [255,0,0]
+  P_Skeleton_3: [255,0,0]
+  
+
+  P1_Skeleton: [255, 0, 0]
+  P1_RH: [204, 204, 204]
+  P1_LH: [204, 204, 204]
+
+  P1_RH_Thum_skel: [255, 255, 0]
+  P1_RH_Index_skel: [255, 255, 0]
+  P1_RH_Middle_skel: [255, 255, 0]
+  P1_RH_Ring_skel: [255, 255, 0]
+  P1_RH_Pinky_skel: [255, 255, 0]
+
+
+  P2: [255, 102, 0]
+  P2_Skeleton: [255, 102, 0]
+  P2_RH: [204, 204, 204]
+  P2_LH: [204, 204, 204]
+
+  P2_RH_Thum_skel: [255, 255, 0]
+  P2_RH_Index_skel: [255, 255, 0]
+  P2_RH_Middle_skel: [255, 255, 0]
+  P2_RH_Ring_skel: [255, 255, 0]
+  P2_RH_Pinky_skel: [255, 255, 0]
+
+
+
+  P3: [255, 255, 0]
+  P3_Skeleton: [255, 255, 0]
+  P3_RH: [204, 204, 204]
+  P3_LH: [204, 204, 204]
+
+  P3_RH_Thum_skel: [255, 255, 0]
+  P3_RH_Index_skel: [255, 255, 0]
+  P3_RH_Middle_skel: [255, 255, 0]
+  P3_RH_Ring_skel: [255, 255, 0]
+  P3_RH_Pinky_skel: [255, 255, 0]
+
+
+
+  P5: [51,255,0]
+  P5_Skeleton: [51,255,0]
+  P5_RH: [204, 204, 204]
+  P5_LH: [204, 204, 204]
+
+  P5_RH_Thum_skel: [255, 255, 0]
+  P5_RH_Index_skel: [255, 255, 0]
+  P5_RH_Middle_skel: [255, 255, 0]
+  P5_RH_Ring_skel: [255, 255, 0]
+  P5_RH_Pinky_skel: [255, 255, 0]
+
+
+
+  P6: [51,153,255]
+  P6_Skeleton: [51,153,255]
+  P6_RH: [204, 204, 204]
+  P6_LH: [204, 204, 204]
+
+  P6_RH_Thum_skel: [255, 255, 0]
+  P6_RH_Index_skel: [255, 255, 0]
+  P6_RH_Middle_skel: [255, 255, 0]
+  P6_RH_Ring_skel: [255, 255, 0]
+  P6_RH_Pinky_skel: [255, 255, 0]
+
+
+
+  P7: [51, 0, 51]
+  P7_Skeleton: [51, 0, 51]
+  P7_RH: [204, 204, 204]
+  P7_LH: [204, 204, 204]
+
+  P7_RH_Thum_skel: [255, 255, 0]
+  P7_RH_Index_skel: [255, 255, 0]
+  P7_RH_Middle_skel: [255, 255, 0]
+  P7_RH_Ring_skel: [255, 255, 0]
+  P7_RH_Pinky_skel: [255, 255, 0]
+
+
+
+  D: [153,51,255]
+  D_Skeleton: [153,51,255]
+  D_RH: [204, 204, 204]
+  D_LH: [204, 204, 204]
+
+  D_RH_Thum_skel: [255, 255, 0]
+  D_RH_Index_skel: [255, 255, 0]
+  D_RH_Middle_skel: [255, 255, 0]
+  D_RH_Ring_skel: [255, 255, 0]
+  D_RH_Pinky_skel: [255, 255, 0]
+
+
+
+shape:
+  # drawing
+  line_color: [0, 255, 0, 128]
+  fill_color: [0, 0, 0, 64]
+  vertex_fill_color: [0, 255, 0, 255]
+  # selecting / hovering
+  select_line_color: [255, 255, 255, 255]
+  select_fill_color: [0, 255, 0, 155]
+  hvertex_fill_color: [255, 255, 255, 255]
+  point_size: 4
+
+
+
+# main
+flag_dock:
+  show: true
+  closable: true
+  movable: true
+  floatable: true
+label_dock:
+  show: true
+  closable: true
+  movable: true
+  floatable: true
+shape_dock:
+  show: true
+  closable: true
+  movable: true
+  floatable: true
+file_dock:
+  show: true
+  closable: true
+  movable: true
+  floatable: true
+
+# label_dialog
+show_label_text_field: true
+label_completion: startswith
+fit_to_content:
+  column: true
+  row: false
+
+# canvas
+epsilon: 10.0
+canvas:
+  fill_drawing: true
+  # None: do nothing
+  # close: close polygon
+  double_click: close
+  # The max number of edits we can undo
+  num_backups: 10
+  # show crosshair
+  crosshair:
+    polygon: false
+    rectangle: true
+    circle: false
+    line: false
+    point: false
+    linestrip: false
+    ai_polygon: false
+
+shortcuts:
+  close: null
+  open: null
+  
+  quit: null
+  
+  save_as: null
+  save_to: null
+  delete_file: null
+
+  zoom_in: [Ctrl++, Ctrl+=]
+  zoom_out: Ctrl+-
+  zoom_to_original: null
+  fit_window: null
+  fit_width: null
+
+
+  create_circle: null
+  create_line: null
+  create_point: null
+  create_linestrip: null
+  
+  
+  duplicate_polygon: null
+  
+  add_point_to_edge: null
+  edit_label: null
+  toggle_keep_prev_mode: Ctrl+P
+  remove_selected_point: [Meta+H, Backspace]
+
+
+
+  open_dir: Ctrl+U
+  Load_video: Ctrl+M
+
+  open_next: R
+  open_prev: E
+
+  save: Ctrl+S
+
+  create_polygon: Q
+  create_rectangle: W 
+  create_line: L
+  create_point: P
+  
+  edit_polygon: F 
+
+  copy_polygon: Ctrl+C
+  paste_polygon: Ctrl+V
+  delete_polygon: Delete
+
+
+  prev_img_bounding: Ctrl+A
+  Auto_Bounding : A
+  all_load : ctrl+space
+  To_Rectagle : Ctrl+R
+
+  find_unlabeled_file: C
+  undo: Ctrl+Z
+  undo_last_point: Ctrl+Z
+
+  
