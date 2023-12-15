@@ -1,5 +1,16 @@
 # Auto_Labelme
 
+
+
+### 현재 깃허브에서 오픈소스로 공개된 Labelme에서 필요한 기능을 추가하고, 제거하여 
+### 제작된 커스터마이징 레이블링 툴입니다.   
+- https://github.com/wkentaro/labelme
+
+  ![image](https://github.com/jhyun-lee/Auto_Labelme/assets/100923108/a44d9e01-8d8f-412f-a677-59ed1f0258c7)
+
+    
+
+***
 #### 기존 Labelme에서 변경된 내용은 아래와 같습니다. 
 ![image](https://github.com/jhyun-lee/Auto_Labelme/assets/100923108/312700ce-64b2-4fa9-bd04-6919b0ca4589)  
 
