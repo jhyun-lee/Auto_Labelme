@@ -19,6 +19,8 @@
 ![image](https://github.com/jhyun-lee/Auto_Labelme/assets/100923108/eef9f906-e9b8-4403-9337-3ef11455acf0)  
 
 
+<img src="https://github.com/jhyun-lee/Auto_Labelme/assets/100923108/0907c887-9997-4870-9e3f-85b6421ef377" width="50%" height="50%"></img>
+
 
 - 사람의 경우 Mediapipe와 Detectron2, yolo모델을 각각 사용해본 결과 yolo모델이 속도 측면에서 앞서, 채택하여 개발 
 
